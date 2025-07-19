@@ -1,0 +1,170 @@
+newmtl Default
+d 1
+Ns 1
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/texturez_rust_802.preview.jpg
+
+newmtl Default_RTentPole
+d 1
+Ns 1
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/texturez_rust_802.preview.jpg
+
+newmtl Default_RShelterHalf
+d 1
+Ns 1
+Ni 0
+Ka 0.501961 0.501961 0.501961
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/Lg Canvas3 LT OD.jpg
+
+newmtl Default_LShelterHalf
+d 1
+Ns 1
+Ni 0
+Ka 0.501961 0.501961 0.501961
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/Lg Canvas3 LT OD.jpg
+
+newmtl Default_Centerline
+d 1
+Ns 1
+Ni 0
+Ka 0.501961 0.501961 0.501961
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/Lg Canvas3 LT OD.jpg
+
+newmtl Default_FFixedFlap
+d 1
+Ns 1
+Ni 0
+Ka 0.501961 0.501961 0.501961
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/Lg Canvas3 LT OD.jpg
+
+newmtl Default_RFixedFlap
+d 1
+Ns 1
+Ni 0
+Ka 0.501961 0.501961 0.501961
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/Lg Canvas3 LT OD.jpg
+
+newmtl Default_FOpenFlap
+d 1
+Ns 1
+Ni 0
+Ka 0.501961 0.501961 0.501961
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/Lg Canvas1 DK OD.jpg
+
+newmtl Default_ROpenFlap
+d 1
+Ns 1
+Ni 0
+Ka 0.501961 0.501961 0.501961
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/Lg Canvas1 DK OD.jpg
+
+newmtl Default_FPoleCatch
+d 1
+Ns 1
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/texturez_rust_802.preview.jpg
+
+newmtl Default_RPoleCatch
+d 1
+Ns 1
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/texturez_rust_802.preview.jpg
+
+newmtl Default_TentRope
+d 1
+Ns 1
+Ni 0
+Ka 0.752941 0.752941 0.752941
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/RopeB.jpg
+
+newmtl Default_TentRope_(2)
+d 1
+Ns 1
+Ni 0
+Ka 0.752941 0.752941 0.752941
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/RopeB.jpg
+
+newmtl Default_TentRope_(3)
+d 1
+Ns 1
+Ni 0
+Ka 0.752941 0.752941 0.752941
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/RopeB.jpg
+
+newmtl Default_TentRope_(4)
+d 1
+Ns 1
+Ni 0
+Ka 0.752941 0.752941 0.752941
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/RopeB.jpg
+
+newmtl Default_TentRope_(5)
+d 1
+Ns 1
+Ni 0
+Ka 0.752941 0.752941 0.752941
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/RopeB.jpg
+
+newmtl Default_TentRope_(6)
+d 1
+Ns 1
+Ni 0
+Ka 0.752941 0.752941 0.752941
+Kd 1 1 1
+Ks 0 0 0
+Km 0
+map_Kd /Maps/RopeB.jpg
+
