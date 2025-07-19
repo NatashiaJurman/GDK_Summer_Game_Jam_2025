@@ -18,6 +18,7 @@ public class EnemyStateManager : MonoBehaviour
 
     [Header("Stalk State Variables")]
     public Transform player;
+    public Transform[] hidingSpot;
 
     void Start()
     {
