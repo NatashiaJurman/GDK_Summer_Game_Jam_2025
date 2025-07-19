@@ -1,0 +1,323 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.30f1 (70558241b701) revision 7361922'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15659 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Tash/Desktop/GitHub/GDK_Summer_Game_Jam_2025
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+56541
+Successfully changed project path to: C:/Users/Tash/Desktop/GitHub/GDK_Summer_Game_Jam_2025
+C:/Users/Tash/Desktop/GitHub/GDK_Summer_Game_Jam_2025
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28632] Host "[IP] 192.168.1.58 [Port] 0 [Flags] 2 [Guid] 2392411460 [EditorId] 2392411460 [Version] 1048832 [Id] WindowsEditor(7,TashsComputer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28632] Host "[IP] 192.168.1.58 [Port] 0 [Flags] 2 [Guid] 2392411460 [EditorId] 2392411460 [Version] 1048832 [Id] WindowsEditor(7,TashsComputer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 1418.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.30f1 (70558241b701)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Tash/Desktop/GitHub/GDK_Summer_Game_Jam_2025/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7829 MB
+    Driver:   31.0.12042.4
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.462268 seconds.
+- Loaded All Assemblies, in  6.206 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.232 seconds
+Domain Reload Profiling: 6437ms
+	BeginReloadAssembly (4329ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (353ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (517ms)
+	LoadAllAssembliesAndSetupDomain (995ms)
+		LoadAssemblies (4328ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (992ms)
+			TypeCache.Refresh (991ms)
+				TypeCache.ScanAssembly (763ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (233ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (185ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.045 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.275 seconds
+Domain Reload Profiling: 1319ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (853ms)
+		LoadAssemblies (603ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (321ms)
+			TypeCache.Refresh (319ms)
+				TypeCache.ScanAssembly (266ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (275ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (59.3 KB). Loaded Objects now: 3687.
+Memory consumption went from 154.3 MB to 154.2 MB.
+Total: 3.699100 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.336100 ms MarkObjects: 2.881700 ms  DeleteObjects: 0.215400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76164.836664 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Logs_Wood
+  artifactKey: Guid(ac2d9e851381b0343828f14815384718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Logs_Wood using Guid(ac2d9e851381b0343828f14815384718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca49ca94324d04f67e357d882ea79e0') in 0.003585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059923 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Logs_Wood/FireWood_01.fbx
+  artifactKey: Guid(bb47b2717c7c4874786ddfa976e2d091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Logs_Wood/FireWood_01.fbx using Guid(bb47b2717c7c4874786ddfa976e2d091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdab8d2faafb04b9713ec93aa6727ad') in 0.129865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Logs_Wood/Log_01_a.fbx
+  artifactKey: Guid(6c5c9643b1854ba4eb9a6491424afce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Logs_Wood/Log_01_a.fbx using Guid(6c5c9643b1854ba4eb9a6491424afce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41954cee77c839a3efb60625e2087e29') in 0.024217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Logs_Wood/LogHeap_02_a.fbx
+  artifactKey: Guid(e904fdac1ce22d1489a9965702b60745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Logs_Wood/LogHeap_02_a.fbx using Guid(e904fdac1ce22d1489a9965702b60745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cb40e168d14432888ab2b4d34ba884') in 0.022134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Logs_Wood/LogHeap_02_b.fbx
+  artifactKey: Guid(43507009ef08f1f42aa8545e7c1b9277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Logs_Wood/LogHeap_02_b.fbx using Guid(43507009ef08f1f42aa8545e7c1b9277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15abce9ba95a3887d03b420584383922') in 0.019698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.794847 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Stairs_Ladders/Staircase_01.fbx
+  artifactKey: Guid(279a9fc532b7d204db6e6e3f4bcfadb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Stairs_Ladders/Staircase_01.fbx using Guid(279a9fc532b7d204db6e6e3f4bcfadb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033bcf626872cd16a8b47de97781e163') in 0.019189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.203412 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Rocks/Rock_01_b.fbx
+  artifactKey: Guid(6f18c16613e7c6a44a09d898d02e933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Rocks/Rock_01_b.fbx using Guid(6f18c16613e7c6a44a09d898d02e933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc5c93512d8c811e44d2712fc35d66b') in 0.014585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007578 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Rocks/Rock_01_e.fbx
+  artifactKey: Guid(6b6c1a515912fa74cbecebb5cc0a2333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Rocks/Rock_01_e.fbx using Guid(6b6c1a515912fa74cbecebb5cc0a2333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d2a0cf7ee2686630d9caa62693a592') in 0.015781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005917 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Rocks/Rock_02_b.fbx
+  artifactKey: Guid(83f83f83c309b554394085851b06f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Rocks/Rock_02_b.fbx using Guid(83f83f83c309b554394085851b06f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c965a1f441efd5587cc567afdb2ff77') in 0.016654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005909 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Rocks/Rock_02_e.fbx
+  artifactKey: Guid(5a16db2e3eb853f4994ce3c57bdf39c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Rocks/Rock_02_e.fbx using Guid(5a16db2e3eb853f4994ce3c57bdf39c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d8fd94aafde47666961a1a0eec609d') in 0.015847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006691 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Rocks/Rock_03_c.fbx
+  artifactKey: Guid(b90a50dc45489ba4282fbe4e8316a9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Rocks/Rock_03_c.fbx using Guid(b90a50dc45489ba4282fbe4e8316a9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0168cad0c756464f40f8110334ed29b4') in 0.016731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Rocks/RockBarrier_02_a.fbx
+  artifactKey: Guid(68f5029bea9fb1844a923c10a35f50a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Rocks/RockBarrier_02_a.fbx using Guid(68f5029bea9fb1844a923c10a35f50a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2218128b59ea9fa584ee07c13411685f') in 0.021999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 23.043373 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Boards/Board_01_a002.fbx
+  artifactKey: Guid(cfd8d29704aa49346ace0d25ff3d362f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Boards/Board_01_a002.fbx using Guid(cfd8d29704aa49346ace0d25ff3d362f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57aad0381a9be3d42b4bda34ab12b263') in 0.015089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006260 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Boards/Palnk_02_a.fbx
+  artifactKey: Guid(9e6b77ca61daa8f4ea9c8a7e2122c887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Boards/Palnk_02_a.fbx using Guid(9e6b77ca61daa8f4ea9c8a7e2122c887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7e9b7844edffec98f4e2d65a2f02c1') in 0.017066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002623 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Boards/Plank_01_a002.fbx
+  artifactKey: Guid(113c62e09f2ea784ab7aae196b532f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Boards/Plank_01_a002.fbx using Guid(113c62e09f2ea784ab7aae196b532f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c078066820740134fba93cb333fc7889') in 0.015046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 21.750653 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Buildings/Bridge_02.fbx
+  artifactKey: Guid(74c22cc3396c6c246abbeef5d6a6232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Buildings/Bridge_02.fbx using Guid(74c22cc3396c6c246abbeef5d6a6232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d183b4289c7ae58c43e8f240ae1d446') in 0.015282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006071 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Buildings/Shed_01.fbx
+  artifactKey: Guid(5efcd5d9e2e5ba14d944b6c2d5280f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Buildings/Shed_01.fbx using Guid(5efcd5d9e2e5ba14d944b6c2d5280f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e09153efb29fbccc1da2a2a05c658ec') in 0.017153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005192 seconds.
+  path: Assets/LowPolyAssets/WoodsLifestyle/Models/Buildings/Well_01.fbx
+  artifactKey: Guid(4f49a178802889240940614840a8758e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAssets/WoodsLifestyle/Models/Buildings/Well_01.fbx using Guid(4f49a178802889240940614840a8758e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de93dc7a6868498104cd548a515d87e5') in 0.019248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
