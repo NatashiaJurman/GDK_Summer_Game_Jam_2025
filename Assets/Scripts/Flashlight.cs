@@ -26,7 +26,7 @@ public class Flashlight : MonoBehaviour
 
     void Start()
     {
-        isEquipped = true;
+        isEquipped = false;
 
         ON.SetActive(true);
         OFF.SetActive(false);
