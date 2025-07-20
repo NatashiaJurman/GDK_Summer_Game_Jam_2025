@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuFuncionality : MonoBehaviour
 {
-public void Start()
+public void BeginGame()
     {
         SceneManager.LoadScene("LowPolyScene");
     }

@@ -18,6 +18,11 @@ public class Dialogue : MonoBehaviour
     public GameObject secondSparrow;
     public GameObject thirdSparrow;
 
+    public Camera mainCamera;
+    public Camera SparrowCamera;
+
+    
+
 
     void Start()
     {
@@ -46,6 +51,9 @@ public class Dialogue : MonoBehaviour
         Debug.Log("Starting Dialogue");
         this.gameObject.SetActive(true);
         
+        mainCamera.enabled = false;
+        SparrowCamera.enabled = true;
+
         firstSparrow.tag = "Untagged";
         secondSparrow.tag = "Untagged";
         thirdSparrow.tag = "Untagged";
@@ -91,10 +99,12 @@ public class Dialogue : MonoBehaviour
             }
             else if (this.gameObject.tag == "ThirdSparrowDialogue")
             {
-                Debug.Log("Loading next scene");
-                thirdSparrow.SetActive(false);
+                int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(currentSceneIndex + 1); 
             }
             
+            mainCamera.enabled = true;
+            SparrowCamera.enabled = false;
             gameObject.SetActive(false);
 
         }

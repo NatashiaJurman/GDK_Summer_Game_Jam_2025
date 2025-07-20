@@ -465,7 +465,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &735031116
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1121,7 +1121,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 923455213}
         m_TargetAssemblyTypeName: MenuFuncionality, Assembly-CSharp
-        m_MethodName: Start
+        m_MethodName: BeginGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1203,7 +1203,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.20999146, y: -0.05000305}
+  m_AnchoredPosition: {x: -0.20996094, y: -0.049987793}
   m_SizeDelta: {x: 936.80005, y: 526.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1338226427
@@ -1353,7 +1353,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1796064005
 RectTransform:
   m_ObjectHideFlags: 0
