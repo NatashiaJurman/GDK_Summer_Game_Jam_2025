@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Dialogue : MonoBehaviour
 {
@@ -42,6 +43,7 @@ public class Dialogue : MonoBehaviour
 
     public void StartDialogue()
     {
+        Debug.Log("Starting Dialogue");
         this.gameObject.SetActive(true);
         
         firstSparrow.tag = "Untagged";
@@ -89,8 +91,10 @@ public class Dialogue : MonoBehaviour
             }
             else if (this.gameObject.tag == "ThirdSparrowDialogue")
             {
+                Debug.Log("Loading next scene");
                 thirdSparrow.SetActive(false);
             }
+            
             gameObject.SetActive(false);
 
         }
