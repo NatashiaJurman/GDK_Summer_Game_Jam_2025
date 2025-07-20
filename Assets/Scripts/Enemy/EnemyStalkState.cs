@@ -15,7 +15,7 @@ public class EnemyStalkState : EnemyBaseState
 
         enemy.navMeshAgent.isStopped = true;
 
-        if (enemy.navMeshAgent.isStopped && enemy.GetComponent<FieldOfView>().canSeeHidingSpot == true)
+        if (enemy.navMeshAgent.isStopped)
         {
             enemy.SwitchState(enemy.ChaseState);
         }
