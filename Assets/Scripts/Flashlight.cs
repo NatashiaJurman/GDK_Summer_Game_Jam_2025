@@ -6,6 +6,8 @@ public class Flashlight : MonoBehaviour
 {
     public GameObject ON;
     public GameObject OFF;
+    public GameObject ONBULB;
+    public GameObject OFFBULB;
 
     public GameObject newParent;
 
@@ -16,10 +18,13 @@ public class Flashlight : MonoBehaviour
     {
         this.transform.SetParent(newParent.transform, true);
 
-        this.transform.position = new Vector3(newParent.transform.position.x + 0.6f, newParent.transform.position.y - 0.75f, newParent.transform.position.z - 0.2f);
+        this.transform.position = new Vector3(newParent.transform.position.x, newParent.transform.position.y, newParent.transform.position.z);
 
         this.transform.rotation = newParent.transform.rotation;
-        transform.Rotate(90, 0, 0);
+        
+        this.GetComponent<MeshRenderer>().enabled = false;
+        ONBULB.GetComponent<MeshRenderer>().enabled = false;
+        OFFBULB.GetComponent<MeshRenderer>().enabled = false;
 
         isEquipped = true;
     }
