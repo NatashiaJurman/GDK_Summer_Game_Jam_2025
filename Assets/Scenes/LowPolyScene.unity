@@ -19059,9 +19059,11 @@ MonoBehaviour:
   textComponent: {fileID: 1885874379}
   uiImageComponent: {fileID: 2142826861}
   uiImage:
-  - {fileID: 21300000, guid: 672419beafb177345b26aed21959ea75, type: 3}
+  - {fileID: 21300000, guid: ec7b177535f45454ca66e789f50d6319, type: 3}
+  - {fileID: 21300000, guid: 6de8319dc31775f48b4687c9681bfebb, type: 3}
   lines:
-  - yoyoyoyoyoyoyoyoyoyyoyoyo
+  - Great!
+  - We just need 2 more pieces of wood.
   textSpeed: 0.05
   firstSparrow: {fileID: 904889570}
   secondSparrow: {fileID: 1411550002}
@@ -42462,10 +42464,13 @@ MonoBehaviour:
   uiImageComponent: {fileID: 870077833}
   uiImage:
   - {fileID: 21300000, guid: c992eb79d027b714cb14d282b240741c, type: 3}
-  - {fileID: 21300000, guid: c992eb79d027b714cb14d282b240741c, type: 3}
+  - {fileID: 21300000, guid: ec7b177535f45454ca66e789f50d6319, type: 3}
+  - {fileID: 21300000, guid: 6de8319dc31775f48b4687c9681bfebb, type: 3}
   lines:
-  - Yo, whats goin on my brotha
-  - Yo, whats goin on my brotha
+  - Good morning camper!
+  - "Let\u2019s start getting your campsite ready! "
+  - Collect a piece of wood from around the forest and bring it back to the campfire
+    to get it started.
   textSpeed: 0.05
   firstSparrow: {fileID: 904889570}
   secondSparrow: {fileID: 1411550002}
@@ -50560,8 +50565,12 @@ MonoBehaviour:
   uiImageComponent: {fileID: 1809313483}
   uiImage:
   - {fileID: 21300000, guid: ec7b177535f45454ca66e789f50d6319, type: 3}
+  - {fileID: 21300000, guid: 6de8319dc31775f48b4687c9681bfebb, type: 3}
+  - {fileID: 21300000, guid: 672419beafb177345b26aed21959ea75, type: 3}
   lines:
-  - memememememememem
+  - Good work!
+  - Now let's gather s-s-some...
+  - S-some...
   textSpeed: 0.05
   firstSparrow: {fileID: 904889570}
   secondSparrow: {fileID: 1411550002}
