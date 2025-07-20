@@ -11307,13 +11307,11 @@ MonoBehaviour:
   textComponent: {fileID: 1015389939}
   uiImageComponent: {fileID: 708473382}
   uiImage:
-  - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 21300000, guid: ec7b177535f45454ca66e789f50d6319, type: 3}
+  - {fileID: 21300000, guid: 6de8319dc31775f48b4687c9681bfebb, type: 3}
   lines:
-  - This is NOT a test
-  - I do NOT repeat
-  - ...
+  - Great!
+  - We just need a bit more wood.
   textSpeed: 0.05
   firstSparrow: {fileID: 904889570}
   secondSparrow: {fileID: 1411550002}
@@ -35267,13 +35265,13 @@ MonoBehaviour:
   textComponent: {fileID: 442458806}
   uiImageComponent: {fileID: 2020765975}
   uiImage:
-  - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 21300000, guid: ec7b177535f45454ca66e789f50d6319, type: 3}
+  - {fileID: 21300000, guid: 6de8319dc31775f48b4687c9681bfebb, type: 3}
+  - {fileID: 21300000, guid: 672419beafb177345b26aed21959ea75, type: 3}
   lines:
-  - bla
-  - bla
-  - bla
+  - Good work!
+  - Now let's gather s-s-some...
+  - S-some...
   textSpeed: 0.05
   firstSparrow: {fileID: 904889570}
   secondSparrow: {fileID: 1411550002}
@@ -36656,13 +36654,14 @@ MonoBehaviour:
   textComponent: {fileID: 441605116}
   uiImageComponent: {fileID: 1703070926}
   uiImage:
-  - {fileID: 21300000, guid: 6de8319dc31775f48b4687c9681bfebb, type: 3}
   - {fileID: 21300000, guid: c992eb79d027b714cb14d282b240741c, type: 3}
   - {fileID: 21300000, guid: ec7b177535f45454ca66e789f50d6319, type: 3}
+  - {fileID: 21300000, guid: 6de8319dc31775f48b4687c9681bfebb, type: 3}
   lines:
-  - This is a test
-  - I repeat
-  - This is a test
+  - Good morning camper!
+  - "Let\u2019s start getting your campsite ready! "
+  - Collect pieces of wood around the forest and bring them back to the campfire
+    to get it started.
   textSpeed: 0.05
   firstSparrow: {fileID: 904889570}
   secondSparrow: {fileID: 1411550002}
