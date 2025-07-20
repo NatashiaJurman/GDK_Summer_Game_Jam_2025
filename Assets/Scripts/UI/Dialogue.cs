@@ -13,15 +13,13 @@ public class Dialogue : MonoBehaviour
     public float textSpeed;
     private int index;
 
+    public GameObject firstSparrow;
+    public GameObject secondSparrow;
+
 
     void Start()
     {
-        if (gameObject.tag == "IntroDialogue")
-        {
-            textComponent.text = string.Empty;
-            uiImageComponent.sprite = null;
-            StartDialogue();
-        }
+        this.gameObject.SetActive(false);
     }
 
     void Update()
@@ -43,6 +41,11 @@ public class Dialogue : MonoBehaviour
 
     public void StartDialogue()
     {
+        this.gameObject.SetActive(true);
+        
+        firstSparrow.tag = "Untagged";
+        secondSparrow.tag = "Untagged";
+
         index = 0;
         uiImageComponent.sprite = uiImage[index];
         StartCoroutine(TypeLine());
@@ -70,7 +73,15 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
+            if (this.gameObject.tag == "FirstSparrowDialogue")
+            {
+                secondSparrow.SetActive(true);
+                secondSparrow.tag = "Interactable";
+
+                firstSparrow.SetActive(false);
+            }
             gameObject.SetActive(false);
+
         }
     }
 }

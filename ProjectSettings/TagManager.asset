@@ -7,11 +7,12 @@ TagManager:
   - Interactable
   - IntroDialogue
   - HidingSpot
+  - FirstSparrowDialogue
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - FirstSparrowDialogue
   - Water
   - UI
   - Post
