@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638885561407052814
-    m_Hash: 615579946
+      ticks: 638886361481725908
+    m_Hash: 3499488930
   m_LockFileStatus:
     m_FilePath: C:/Users/Tash/Desktop/GitHub/GDK_Summer_Game_Jam_2025/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638885561407090525
-    m_Hash: 483571179
+      ticks: 638886361481725908
+    m_Hash: 948194009
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
