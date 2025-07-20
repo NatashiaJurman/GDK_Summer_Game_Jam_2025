@@ -15,6 +15,7 @@ public class Dialogue : MonoBehaviour
 
     public GameObject firstSparrow;
     public GameObject secondSparrow;
+    public GameObject thirdSparrow;
 
 
     void Start()
@@ -45,6 +46,7 @@ public class Dialogue : MonoBehaviour
         
         firstSparrow.tag = "Untagged";
         secondSparrow.tag = "Untagged";
+        thirdSparrow.tag = "Untagged";
 
         index = 0;
         uiImageComponent.sprite = uiImage[index];
@@ -76,9 +78,18 @@ public class Dialogue : MonoBehaviour
             if (this.gameObject.tag == "FirstSparrowDialogue")
             {
                 secondSparrow.SetActive(true);
-                secondSparrow.tag = "Interactable";
+                
 
                 firstSparrow.SetActive(false);
+            }
+            else if (this.gameObject.tag == "SecondSparrowDialogue")
+            {
+                thirdSparrow.SetActive(true);
+                secondSparrow.SetActive(false);
+            }
+            else if (this.gameObject.tag == "ThirdSparrowDialogue")
+            {
+                thirdSparrow.SetActive(false);
             }
             gameObject.SetActive(false);
 

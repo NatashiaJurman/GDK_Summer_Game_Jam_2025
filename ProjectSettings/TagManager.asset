@@ -8,6 +8,8 @@ TagManager:
   - IntroDialogue
   - HidingSpot
   - FirstSparrowDialogue
+  - SecondSparrowDialogue
+  - ThirdSparrowDialogue
   layers:
   - Default
   - TransparentFX

@@ -10,13 +10,16 @@ public class WoodMechanic : MonoBehaviour
     public Vector3 woodRotation;
 
     public GameObject firePrefab;
+    public GameObject nextSparrow;
 
     private bool woodCanInteract;
+
+    
 
     void Start()
     {
 
-        this.transform.position = woodPosition;
+        
 
         firePrefab.tag = "Untagged";
         
@@ -38,8 +41,12 @@ public class WoodMechanic : MonoBehaviour
 
     public void InteractWithFire()
     {
+        if (this.transform.position == firePosition + new Vector3(0, -10, 0))
+        {
+            this.transform.position = woodPosition;
+        }
         
-        this.transform.position = firePosition;
+        nextSparrow.tag = "Interactable";
         firePrefab.tag = "Untagged";
 
     }

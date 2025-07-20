@@ -18,7 +18,7 @@ public class Flashlight : MonoBehaviour
     {
         this.transform.SetParent(newParent.transform, true);
 
-        this.transform.position = new Vector3(newParent.transform.position.x, newParent.transform.position.y, newParent.transform.position.z);
+        this.transform.position = new Vector3(newParent.transform.position.x, newParent.transform.position.y - 0.5f, newParent.transform.position.z);
 
         this.transform.rotation = newParent.transform.rotation;
         
@@ -49,7 +49,7 @@ public class Flashlight : MonoBehaviour
 
     public void FlashlightToggle()
     {
-
+        this.gameObject.tag = "Untagged";
 
         if (Input.GetKeyDown(KeyCode.F))
         {
