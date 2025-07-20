@@ -15,6 +15,7 @@ public class WoodMechanic : MonoBehaviour
 
     void Start()
     {
+
         this.transform.position = woodPosition;
 
         firePrefab.tag = "Untagged";
