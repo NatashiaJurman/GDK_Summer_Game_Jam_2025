@@ -5,16 +5,17 @@ public class EnemyStalkState : EnemyBaseState
     public override void EnterState(EnemyStateManager enemy)
     {
         Debug.Log("Entering Stalk State");
-        enemy.GetComponent<FieldOfView>().BeginChecking();
-
-        enemy.navMeshAgent.isStopped = true;
     }
 
     public override void UpdateState(EnemyStateManager enemy)
     {
         enemy.transform.LookAt(enemy.player.position);
 
-        if (enemy.navMeshAgent.isStopped)
+        enemy.GetComponent<FieldOfView>().BeginChecking();
+
+        enemy.navMeshAgent.isStopped = true;
+
+        if (enemy.navMeshAgent.isStopped && enemy.GetComponent<FieldOfView>().canSeeHidingSpot == true)
         {
             enemy.SwitchState(enemy.ChaseState);
         }

@@ -18,6 +18,7 @@ public class EnemyPatrolState : EnemyBaseState
     {
         if (stateManager.navMeshAgent.remainingDistance < stateManager.navMeshAgent.stoppingDistance)
         {
+            
             stateManager.m_CurrentWaypointIndex = (stateManager.m_CurrentWaypointIndex + 1) % stateManager.waypoints.Length;
             stateManager.navMeshAgent.SetDestination(stateManager.waypoints[stateManager.m_CurrentWaypointIndex].position);
         }
