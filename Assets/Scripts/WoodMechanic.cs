@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WoodMechanic : MonoBehaviour
 {
@@ -16,9 +17,11 @@ public class WoodMechanic : MonoBehaviour
 
     
 
+
+
     void Start()
     {
-
+        
         
 
         firePrefab.tag = "Untagged";
@@ -44,6 +47,8 @@ public class WoodMechanic : MonoBehaviour
         if (this.transform.position == firePosition + new Vector3(0, -10, 0))
         {
             this.transform.position = woodPosition;
+            
+            
         }
         
         nextSparrow.tag = "Interactable";
